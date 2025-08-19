@@ -1,7 +1,7 @@
 export const API_CONFIG = {
     ENDPOINTS: {
         // Tambahkan API key untuk FreeCurrency API
-        exchangeRate: `https://api.freecurrencyapi.com/v1/latest?apikey=${process.env.FREE_CURRENCY_API_KEY || 'fca_live_akIbOMjjFeunewRpXavbv7sIvEUFzVQkpLqC7Ix5'}`,
+        exchangeRate: `https://api.freecurrencyapi.com/v1/latest?apikey=${process.env.FREE_CURRENCY_API_KEY || 'your_actual_api_here'}`,
         diamondLock: 'https://gtid.dev/get-latest-pricedl',
         // Separate endpoints for online players and ban data
         onlinePlayers: 'https://www.growtopiagame.com/detail',  // Official GT API for player count

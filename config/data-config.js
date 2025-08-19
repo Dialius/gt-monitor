@@ -1,6 +1,6 @@
 export const DATA_CONFIG = {
     CURRENCY_API: {
-        API_KEY: 'fca_live_akIbOMjjFeunewRpXavbv7sIvEUFzVQkpLqC7Ix5',
+        API_KEY: 'your_actual_api_here',
         BASE_CURRENCY: 'USD',
         TARGET_CURRENCIES: ['IDR', 'EUR']
     },

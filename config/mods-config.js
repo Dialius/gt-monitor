@@ -1,5 +1,5 @@
 export const BOT_CONFIG = {
-    DISCORD_TOKEN: 'MTMzMzI0NzEzNjAwNjkzMDQ5Mw.GgUE91.f27ETTehodViC47f6GqWbEpev5cwF9bdC-I2j0',
+    DISCORD_TOKEN: 'your_actual_token_here',
     CHECK_INTERVAL: 30 * 1000,
     STATUS_ROTATION_INTERVAL: 30 * 1000,
 

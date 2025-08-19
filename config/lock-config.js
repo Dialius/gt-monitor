@@ -4,7 +4,7 @@ export const LOCK_CONFIG = {
         BGL: 'bluelock',
         CLOCK: 'clock'
     },
-    BOT_TOKEN: 'MTM3MTExMTUzNTIzMzA3NzI4OA.GiNbK_.EMFiAOR6DfxMDbY1yojAui6kcb9l6q69Zw08uk',
+    BOT_TOKEN: 'your_actual_token_here',
     BOT_STATUS: [
         { type: 'WATCHING', text: 'LOCK PRICE' },
         { type: 'CUSTOM', text: 'DL : Rp {dlPriceRp} | ${dlPriceUsd} | €{dlPriceEur}' },
