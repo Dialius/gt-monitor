@@ -16,6 +16,7 @@ A collection of Discord bots designed to provide useful information and features
   - [Server-Specific Configurations](#server-specific-configurations)
 - [Usage](#usage)
 - [Last Update](#last-update)
+- [License](#License)
 - [Contributing](#contributing)
 
 
@@ -197,6 +198,9 @@ npm start
 ## Last Update
 
 **2024-07-26**
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
 
 ## Contributing
 
