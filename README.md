@@ -53,7 +53,7 @@ A collection of Discord bots designed to provide useful information and features
 
 Before running the bots, you need to configure the API keys and bot tokens.
 
-### API Configuration (`MultipleFiles/api-config.js`)
+### API Configuration (`config/api-config.js`)
 
 This file contains the endpoints and settings for external API calls.
 
@@ -87,7 +87,7 @@ export const API_CONFIG = {
 **Important:**
 *   Replace `'YOUR_FREECURRENCY_API_KEY'` with your actual FreeCurrency API key. It's highly recommended to use environment variables (`process.env.FREE_CURRENCY_API_KEY`) for sensitive keys.
 
-### Bot Configuration (`MultipleFiles/mods-config.js` and `MultipleFiles/lock-config.js`)
+### Bot Configuration (`config/mods-config.js` and `MultipleFiles/lock-config.js`)
 
 These files contain the Discord bot tokens and general bot settings.
 
@@ -120,7 +120,7 @@ export const LOCK_CONFIG = {
 
 ### Server-Specific Configurations
 
-*   **`MultipleFiles/mods-config.js` (SERVER_CONFIGS):**
+*   **`config/mods-config.js` (SERVER_CONFIGS):**
     This section allows you to configure specific settings for different Discord servers where the "mods" bot will operate. Each key represents a Guild ID.
     ```javascript
     // Example snippet from mods-config.js
@@ -136,7 +136,7 @@ export const LOCK_CONFIG = {
         // Add more server configurations as needed
     };
     ```
-*   **`MultipleFiles/lock-config.js` (LOCK_SERVERS):**
+*   **`config/lock-config.js` (LOCK_SERVERS):**
     Similar to `SERVER_CONFIGS`, this allows server-specific settings for the "lock" bot.
     ```javascript
     // Example snippet from lock-config.js
@@ -151,7 +151,7 @@ export const LOCK_CONFIG = {
         // Add more server configurations as needed
     };
     ```
-*   **`MultipleFiles/online-config.js` (SERVER_CONFIGS):**
+*   **`config/online-config.js` (SERVER_CONFIGS):**
     This file contains configurations related to online player tracking, ban rates, and webhooks for different servers.
     ```javascript
     // Example snippet from online-config.js
